@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'bebas_kairegular';
+    src: url('fonts/bebaskai-regular-webfont.eot');
+    src: url('fonts/bebaskai-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/bebaskai-regular-webfont.woff2') format('woff2'), url('fonts/bebaskai-regular-webfont.woff') format('woff'), url('fonts/bebaskai-regular-webfont.ttf') format('truetype'), url('fonts/bebaskai-regular-webfont.svg#bebas_kairegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header .header-main {
+    background-color: #9f1463;
+    width: 100%;
+    padding-top: 40px;
+}
+
+#header .header-main .header-main-inner {
+    width: 65%;
+    margin: auto;
+}
+
+#header .header-main .header-main-inner figure {
+    text-align: center;
+}
+
+#header .header-main .header-main-inner figure img {
+    width: 100%;
+}
+
+#header .header-main .header-main-inner a img {
+    width: 75%;
+    position: absolute;
+    bottom: 0;
+    left: 105%;
+    padding-bottom: 25px;
+}
+
+h1 {
+    color: #f1e8df;
+    font-size: 35px;
+    font-family: 'bebas_kairegular', sans-serif;
+}
+
+#header .header-main .header-main-inner p {
+    font-size: 20px;
+    color: #ee83ad;
+}
+
+#header .header-bottom {
+    background-image: url(../img/flowers.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #cfc2b4;
+    background-size: contain;
+    width: 100%;
+    margin-top: -8%;
+    padding-top: 140px;
+}
+
+#header .header-bottom .header-bottom-inner {
+    width: 65%;
+    margin: auto;
+}
+
+h2 {
+    color: #5e0040;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#header .header-bottom .header-bottom-inner p {
+    color: #5e0040;
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 90px;
+    padding-bottom: 40px;
+}
+
+
+/*BLURBS*/
+
+#blurbs {
+    background-color: #e7dacf;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+#blurbs .blurbs-inner {
+    width: 65%;
+    margin: auto;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 35px;
+    color: #010101;
+}
+
+#blurbs .blurbs-inner p {
+    font-size: 16px;
+    text-align: justify;
+    color: ;
+    010101;
+}
+
+#blurbs .blurbs-inner img {
+    width: 53%;
+}
+
+
+/*GOODREADS*/
+
+#goodreads {
+    background-color: #cfc2b4;
+    text-align: center;
+}
+
+h4 {
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    width: 60%;
+    margin: auto;
+    color: #5e0040;
+    padding: 40px 0 40px;
+}
+
+
+/*OLD-BOOKS*/
+
+#old-books {
+    background-color: #5e0040;
+    padding-bottom: 50px;
+}
+
+h5 {
+    color: #e7dacf;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0 40px;
+}
+
+#old-books .old-books-main {
+    width: 65%;
+}
+
+#old-books .old-books-main img {
+    width: 100%;
+}
+
+#download {
+    background-color: #9f1463;
+    padding: 40px 0 40px;
+}
+
+#download .download-main {
+    width: 65%;
+    margin: auto;
+}
+
+#download .download-main h5 {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#download .download-main img {
+    width: 80%;
+    float: right;
+}
+
+#download .download-main .download-main-right {
+    margin-top: 10%;
+}
+
+#download .download-main .button-bottom img {
+    width: 70%;
+    float: left;
+}
+
+#footer {
+    background-color: #cfc2b4;
+    padding: 20px 0 20px;
+}
+
+#footer .footer-main {
+    width: 65%;
+}
+
+#footer .footer-main a {
+    color: #5e0040;
+}
+
+#footer .footer-main .footer-left {
+    margin-top: 9px;
+}
+
+#footer .footer-main .footer-right img {
+    float: right;
+}
