@@ -1,0 +1,146 @@
+@media all and (max-width: 992px) {
+    h1 {
+        font-size: 30px;
+    }
+    #header .header-bottom {
+        background-position: 150%;
+    }
+    #header .header-main .header-main-inner {
+        width: 75%;
+    }
+    #header .header-bottom .header-bottom-inner p {
+        margin-right: 0;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #header .header-main .header-main-inner .header-main-small {
+        display: none;
+    }
+    #header .header-main .header-main-inner .button-small {
+        display: none;
+    }
+    h6 {
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        padding-top: 0
+    }
+    #header .header-main {
+        padding-top: 20px;
+    }
+    #header .header-main .header-main-inner p {
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+    #header .header-main .header-main-inner {
+        width: 80%;
+    }
+    #header .header-main .header-main-inner figure img {
+        width: 80%;
+    }
+    #header .header-main .header-main-inner .header-main-right {
+        display: none;
+    }
+    #header .header-main .header-main-inner .button-small {
+        width: 70%;
+        position: inherit;
+        padding: 20px 0 30px;
+    }
+    #header .header-main .header-main-inner .header-main-small {
+        text-align: center;
+    }
+    #header .header-main .header-main-inner .header-main-left {
+        text-align: center;
+    }
+    #header .header-bottom {
+        margin-top: 0;
+    }
+    #header .header-bottom .header-bottom-inner {
+        width: 80%;
+    }
+    h2 {
+        font-size: 14px;
+        margin-right: 15%;
+    }
+    #header .header-bottom .header-bottom-inner p {
+        margin-right: 0;
+        font-size: 14px;
+    }
+    #header .header-bottom {
+        background-image: url(../img/flowers-small.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+    }
+    #blurbs {
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    #blurbs .blurbs-inner {
+        width: 80%;
+    }
+    h3,
+    #blurbs .blurbs-inner p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    #blurbs .blurbs-inner img {
+        width: 100%;
+    }
+    h4 {
+        width: 80%;
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    #old-books .old-books-main {
+        width: 80%;
+    }
+    #download {
+        text-align: center;
+        padding-top: 0;
+    }
+    #download .download-main {
+        width: 80%;
+    }
+    #download .download-main .button-bottom img {
+        width: 70%;
+        float: none;
+    }
+    #download .download-main img {
+        width: 80%;
+        float: none;
+    }
+    #download h5 {
+        display: none;
+    }
+    h6 {
+        color: #e7dacf;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 22px;
+        width: 80%;
+        margin: auto;
+        padding: 40px 0 40px;
+    }
+    #footer .footer-main {
+        width: 100%;
+    }
+    #footer .footer-main .row {
+        background-color: #cfc2b4;
+        margin: 0;
+    }
+    #footer .footer-main .footer-left a {
+        float: right;
+        /*            padding: 8px 50px 0 0;*/
+    }
+    #footer .footer-main .footer-right .logo {
+        float: left;
+        padding-left: 50px;
+    }
+}

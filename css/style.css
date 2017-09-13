@@ -19,10 +19,12 @@ body {
 #header .header-main .header-main-inner {
     width: 65%;
     margin: auto;
+    position: relative;
 }
 
-#header .header-main .header-main-inner figure {
-    text-align: center;
+#header .header-main .header-main-inner .header-main-right {
+    position: unset;
+    padding-left: 0;
 }
 
 #header .header-main .header-main-inner figure img {
@@ -30,17 +32,16 @@ body {
 }
 
 #header .header-main .header-main-inner a img {
-    width: 75%;
+    width: 33%;
     position: absolute;
-    bottom: 0;
-    left: 105%;
-    padding-bottom: 25px;
+    bottom: 20px;
 }
 
 h1 {
     color: #f1e8df;
     font-size: 35px;
     font-family: 'bebas_kairegular', sans-serif;
+    padding-top: 15px;
 }
 
 #header .header-main .header-main-inner p {
@@ -68,6 +69,7 @@ h2 {
     color: #5e0040;
     font-weight: 700;
     font-size: 18px;
+    margin-right: 30%;
 }
 
 #header .header-bottom .header-bottom-inner p {
@@ -76,6 +78,7 @@ h2 {
     text-align: justify;
     margin-right: 90px;
     padding-bottom: 40px;
+    margin-bottom: 0;
 }
 
 
@@ -150,6 +153,10 @@ h5 {
     width: 65%;
 }
 
+#old-books .old-books-main .old-book {
+    padding: 0
+}
+
 #old-books .old-books-main img {
     width: 100%;
 }
@@ -183,6 +190,9 @@ h5 {
     width: 70%;
     float: left;
 }
+
+
+/*FOOTER*/
 
 #footer {
     background-color: #cfc2b4;
