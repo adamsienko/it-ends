@@ -17,7 +17,7 @@ body {
 }
 
 #header .header-main .header-main-inner {
-    width: 65%;
+    width: 75%;
     margin: auto;
     position: relative;
 }
@@ -28,7 +28,8 @@ body {
 }
 
 #header .header-main .header-main-inner figure img {
-    width: 100%;
+    width: 80%;
+    float: right;
 }
 
 #header .header-main .header-main-inner a img {
@@ -39,13 +40,13 @@ body {
 
 h1 {
     color: #f1e8df;
-    font-size: 35px;
+    font-size: 45px;
     font-family: 'bebas_kairegular', sans-serif;
-    padding-top: 15px;
+    padding-top: 5%;
 }
 
 #header .header-main .header-main-inner p {
-    font-size: 20px;
+    font-size: 28px;
     color: #ee83ad;
 }
 
@@ -57,7 +58,7 @@ h1 {
     background-size: contain;
     width: 100%;
     margin-top: -8%;
-    padding-top: 140px;
+    padding-top: 15%;
 }
 
 #header .header-bottom .header-bottom-inner {
